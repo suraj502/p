@@ -193,13 +193,8 @@ footer{background:var(--n);color:var(--mu);text-align:center;padding:0 0 40px;fo
 	.hero .tag{font-size:18px}
 	.hero .w{perspective:900px}
 	.hero .w>div:first-child{transform:translateZ(12px)}
-	.hero .w>div:first-child h1{text-shadow:2px 3px 0 #c9d0ff,5px 8px 18px #5b6cf544}
-	.hero .pnl{transform:perspective(900px) rotateY(-1.8deg) rotateX(.8deg) translateZ(8px);box-shadow:14px 20px 32px #12163a30,0 0 0 1px var(--bd)}
-	.hero .bt .btn{box-shadow:0 6px 0 #c7cef4,0 10px 18px #5b6cf522;transform:translateZ(5px)}
-	.hero .bt .btn.p{box-shadow:0 6px 0 #3f4fc8,0 10px 20px #5b6cf544}
 	.bt .btn{width:100%;text-align:center}
 	.cube:first-child{display:block;--s:28px !important;left:auto !important;right:8% !important;top:7% !important;opacity:.55}
-	.cube:nth-child(2){display:block;--s:22px !important;left:5% !important;bottom:18% !important;top:auto !important;opacity:.35}
 	.cg{gap:24px}
 	.cc{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 	.ci{min-height:108px;padding:13px}
