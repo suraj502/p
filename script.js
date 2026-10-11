@@ -54,7 +54,6 @@ var g=$('gv');if(g){g.style.strokeDashoffset=220;if(i===2)setTimeout(function(){
 function stop(){clearInterval(tm);tm=null}
 tabs.forEach(function(b,k){b.onclick=function(){stop();show(k)}});
 $('live').addEventListener('pointerenter',stop);
-if(!calm)tm=setInterval(function(){show((cur+1)%3)},6000);
 show(0);
 
 /* isometric contribution bars */
