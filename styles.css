@@ -197,7 +197,12 @@ footer{background:var(--n);color:var(--mu);text-align:center;padding:0 0 40px;fo
 	.hero .pnl{transform:perspective(900px) rotateY(-1.6deg) rotateX(.7deg) translateZ(6px);box-shadow:12px 18px 30px #12163a28,0 0 0 1px var(--bd)}
 	.hero .bt .btn{transform:translateZ(5px);box-shadow:0 5px 0 #c7cef4,0 9px 16px #5b6cf522}
 	.hero .bt .btn.p{box-shadow:0 5px 0 #3f4fc8,0 9px 18px #5b6cf544}
-	.bt .btn{width:100%;text-align:center}
+	.bt{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+	.bt .btn{width:100%;text-align:center;padding:12px 10px;border-radius:15px;font-size:14px;font-weight:600;box-shadow:0 5px 0 #c7cef4,0 9px 16px #5b6cf522}
+	.bt .btn.p{grid-column:1/-1;font-size:15px;box-shadow:0 5px 0 #3f4fc8,0 9px 18px #5b6cf544}
+	.bt .btn[href="#projects"]:before{content:"↗ ";font-size:16px}
+	.bt .btn[href="#contact"]:before{content:"✦ ";font-size:13px}
+	.bt .btn:not(.p)[target="_blank"]:before{content:"↓ ";font-size:16px}
 	.cube:first-child{display:block;--s:28px !important;left:auto !important;right:8% !important;top:7% !important;opacity:.55}
 	.cg{gap:24px}
 	.cc{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
